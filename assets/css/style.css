@@ -1,0 +1,73 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'Helvetica Nueue';
+    src: url('../fonts/helvetica-neue-5-cufonfonts/HelveticaNeueBold.ttf'); /* IE9 Compat Modes */
+url('../fonts/helvetica-neue-5-cufonfonts/HelveticaNeueLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+.input-socks-ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.output-socks-ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.li-box {
+    padding: 25px 45px;
+    margin: 0 20px 30px 0;
+    outline: 1px solid #ccc;
+}
+
+.heading-collection{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px ;
+}
+
+svg{display:block;}
+
+.socks1color .socks-icon {
+    fill: #FF3100;
+}
+
+.socks2color .socks-icon {
+    fill: #FFBA00;
+}
+
+.socks3color .socks-icon {
+    fill: #0031FF;
+}
+
+.socks4color .socks-icon {
+    fill: #1FA739;
+}
+.output-socks-ul .li-box{
+    padding: 25px 15px;
+    margin: 0 20px 30px 0;
+    outline: 1px solid #ccc;
+    position: relative;
+}
+
+.pair-count{
+    top: -20px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    padding: 11px 17px;
+    right: -15px;
+    background: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Helvetica Nueue;
+}
